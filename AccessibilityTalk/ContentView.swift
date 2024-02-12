@@ -9,14 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            Form {
+                Section {
+                    NavigationLink("❌ Text Sizing") { TextSizingBadView() }
+                    NavigationLink("✅ Text Sizing") { TextSizingView() }
+                }
+                Section {
+                    NavigationLink("❌ Flexible Sizing (UIKit)") { FlexibleSizingBadUIView() }
+                    NavigationLink("✅ Flexible Sizing (UIKit)") { FlexibleSizingUIView() }
+                }
+                Section {
+                    NavigationLink("❌ Flexible Sizing (SwiftUI)") { FlexibleSizingBadView() }
+                    NavigationLink("✅ Flexible Sizing (SwiftUI)") { FlexibleSizingView() }
+                }
+                Section {
+                    NavigationLink("❌ Flip Layout Axis") { FlipLayoutAxisBadView() }
+                    NavigationLink("✅ Flip Layout Axis") { FlipLayoutAxisView() }
+                }
+                Section {
+                    NavigationLink("❌ Example Form") { ExampleFormBadView() }
+                    NavigationLink("✅ Example Form") { ExampleFormView() }
+                }
+            }
+            .navigationTitle("Accessibility Demo")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
+
+    var tktk: some View { Text("tktk") }
 }
 
 #Preview {
