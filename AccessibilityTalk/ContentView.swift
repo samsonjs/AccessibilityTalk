@@ -35,6 +35,9 @@ struct ContentView: View {
                             .accessibilityLabel("Good SwiftUI Grid")
                     }
                 }
+                Section("6. Custom Controls") {
+                    NavigationLink("Example SwiftUI Slider") { ExampleSliderView() }
+                }
             }
             .navigationTitle("Accessibility Demo")
             .navigationBarTitleDisplayMode(.inline)

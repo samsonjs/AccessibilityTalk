@@ -26,6 +26,8 @@
 		96088D922B7B220200E062FB /* GoodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D912B7B220200E062FB /* GoodDayView.swift */; };
 		96088D942B7B286E00E062FB /* CalendarBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D932B7B286E00E062FB /* CalendarBadView.swift */; };
 		96088D962B7B300C00E062FB /* CalendarGoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D952B7B300C00E062FB /* CalendarGoodView.swift */; };
+		96088D982B7B37B400E062FB /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D972B7B37B400E062FB /* CustomSlider.swift */; };
+		96088D9A2B7B39C300E062FB /* ExampleSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D992B7B39C300E062FB /* ExampleSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		96088D912B7B220200E062FB /* GoodDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDayView.swift; sourceTree = "<group>"; };
 		96088D932B7B286E00E062FB /* CalendarBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarBadView.swift; sourceTree = "<group>"; };
 		96088D952B7B300C00E062FB /* CalendarGoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGoodView.swift; sourceTree = "<group>"; };
+		96088D972B7B37B400E062FB /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		96088D992B7B39C300E062FB /* ExampleSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,21 +87,23 @@
 			children = (
 				96088D612B797B7700E062FB /* AccessibilityTalkApp.swift */,
 				96088D652B797B7900E062FB /* Assets.xcassets */,
-				96088D872B7AFE7D00E062FB /* BadGoodView.swift */,
 				96088D8D2B7B1BF300E062FB /* BadDayView.swift */,
-				96088D912B7B220200E062FB /* GoodDayView.swift */,
+				96088D872B7AFE7D00E062FB /* BadGoodView.swift */,
 				96088D932B7B286E00E062FB /* CalendarBadView.swift */,
 				96088D952B7B300C00E062FB /* CalendarGoodView.swift */,
-				96088D8F2B7B20FE00E062FB /* DayState.swift */,
 				96088D632B797B7700E062FB /* ContentView.swift */,
+				96088D972B7B37B400E062FB /* CustomSlider.swift */,
+				96088D8F2B7B20FE00E062FB /* DayState.swift */,
 				96088D732B7980D700E062FB /* DynamicTypeAdaptiveView.swift */,
 				96088D792B79827D00E062FB /* ExampleFormBadView.swift */,
 				96088D772B7981EB00E062FB /* ExampleFormGoodView.swift */,
+				96088D992B7B39C300E062FB /* ExampleSliderView.swift */,
 				96088D7F2B798DBE00E062FB /* FlexibleSizingBadUIView.swift */,
 				96088D812B79925200E062FB /* FlexibleSizingGoodUIView.swift */,
 				96088D892B7B009400E062FB /* FlexibleSizingUIView.swift */,
 				96088D752B7981DC00E062FB /* FlexibleSizingView.swift */,
 				96088D712B797FBA00E062FB /* FlipLayoutAxisView.swift */,
+				96088D912B7B220200E062FB /* GoodDayView.swift */,
 				96088D672B797B7900E062FB /* Preview Content */,
 				96088D852B799B1400E062FB /* TextSizingView.swift */,
 			);
@@ -182,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96088D9A2B7B39C300E062FB /* ExampleSliderView.swift in Sources */,
 				96088D762B7981DC00E062FB /* FlexibleSizingView.swift in Sources */,
+				96088D982B7B37B400E062FB /* CustomSlider.swift in Sources */,
 				96088D962B7B300C00E062FB /* CalendarGoodView.swift in Sources */,
 				96088D742B7980D700E062FB /* DynamicTypeAdaptiveView.swift in Sources */,
 				96088D642B797B7700E062FB /* ContentView.swift in Sources */,
