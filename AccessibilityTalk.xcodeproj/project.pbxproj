@@ -21,10 +21,15 @@
 		96088D862B799B1400E062FB /* TextSizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D852B799B1400E062FB /* TextSizingView.swift */; };
 		96088D882B7AFE7D00E062FB /* BadGoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D872B7AFE7D00E062FB /* BadGoodView.swift */; };
 		96088D8A2B7B009400E062FB /* FlexibleSizingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D892B7B009400E062FB /* FlexibleSizingUIView.swift */; };
+		96088D8E2B7B1BF300E062FB /* BadDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D8D2B7B1BF300E062FB /* BadDayView.swift */; };
+		96088D902B7B20FE00E062FB /* DayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D8F2B7B20FE00E062FB /* DayState.swift */; };
+		96088D922B7B220200E062FB /* GoodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D912B7B220200E062FB /* GoodDayView.swift */; };
+		96088D942B7B286E00E062FB /* CalendarBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D932B7B286E00E062FB /* CalendarBadView.swift */; };
+		96088D962B7B300C00E062FB /* CalendarGoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D952B7B300C00E062FB /* CalendarGoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96088D5E2B797B7700E062FB /* AccessibilityTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilityTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96088D5E2B797B7700E062FB /* Accesibility Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accesibility Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96088D612B797B7700E062FB /* AccessibilityTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTalkApp.swift; sourceTree = "<group>"; };
 		96088D632B797B7700E062FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96088D652B797B7900E062FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +44,11 @@
 		96088D852B799B1400E062FB /* TextSizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizingView.swift; sourceTree = "<group>"; };
 		96088D872B7AFE7D00E062FB /* BadGoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadGoodView.swift; sourceTree = "<group>"; };
 		96088D892B7B009400E062FB /* FlexibleSizingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingUIView.swift; sourceTree = "<group>"; };
+		96088D8D2B7B1BF300E062FB /* BadDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadDayView.swift; sourceTree = "<group>"; };
+		96088D8F2B7B20FE00E062FB /* DayState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayState.swift; sourceTree = "<group>"; };
+		96088D912B7B220200E062FB /* GoodDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDayView.swift; sourceTree = "<group>"; };
+		96088D932B7B286E00E062FB /* CalendarBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarBadView.swift; sourceTree = "<group>"; };
+		96088D952B7B300C00E062FB /* CalendarGoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +73,7 @@
 		96088D5F2B797B7700E062FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96088D5E2B797B7700E062FB /* AccessibilityTalk.app */,
+				96088D5E2B797B7700E062FB /* Accesibility Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +84,11 @@
 				96088D612B797B7700E062FB /* AccessibilityTalkApp.swift */,
 				96088D652B797B7900E062FB /* Assets.xcassets */,
 				96088D872B7AFE7D00E062FB /* BadGoodView.swift */,
+				96088D8D2B7B1BF300E062FB /* BadDayView.swift */,
+				96088D912B7B220200E062FB /* GoodDayView.swift */,
+				96088D932B7B286E00E062FB /* CalendarBadView.swift */,
+				96088D952B7B300C00E062FB /* CalendarGoodView.swift */,
+				96088D8F2B7B20FE00E062FB /* DayState.swift */,
 				96088D632B797B7700E062FB /* ContentView.swift */,
 				96088D732B7980D700E062FB /* DynamicTypeAdaptiveView.swift */,
 				96088D792B79827D00E062FB /* ExampleFormBadView.swift */,
@@ -114,7 +129,7 @@
 			);
 			name = AccessibilityTalk;
 			productName = AccessibilityTalk;
-			productReference = 96088D5E2B797B7700E062FB /* AccessibilityTalk.app */;
+			productReference = 96088D5E2B797B7700E062FB /* Accesibility Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,17 +183,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				96088D762B7981DC00E062FB /* FlexibleSizingView.swift in Sources */,
+				96088D962B7B300C00E062FB /* CalendarGoodView.swift in Sources */,
 				96088D742B7980D700E062FB /* DynamicTypeAdaptiveView.swift in Sources */,
 				96088D642B797B7700E062FB /* ContentView.swift in Sources */,
 				96088D622B797B7700E062FB /* AccessibilityTalkApp.swift in Sources */,
 				96088D722B797FBA00E062FB /* FlipLayoutAxisView.swift in Sources */,
 				96088D822B79925200E062FB /* FlexibleSizingGoodUIView.swift in Sources */,
+				96088D8E2B7B1BF300E062FB /* BadDayView.swift in Sources */,
 				96088D7A2B79827D00E062FB /* ExampleFormBadView.swift in Sources */,
 				96088D782B7981EB00E062FB /* ExampleFormGoodView.swift in Sources */,
 				96088D882B7AFE7D00E062FB /* BadGoodView.swift in Sources */,
 				96088D8A2B7B009400E062FB /* FlexibleSizingUIView.swift in Sources */,
 				96088D802B798DBE00E062FB /* FlexibleSizingBadUIView.swift in Sources */,
+				96088D902B7B20FE00E062FB /* DayState.swift in Sources */,
+				96088D922B7B220200E062FB /* GoodDayView.swift in Sources */,
 				96088D862B799B1400E062FB /* TextSizingView.swift in Sources */,
+				96088D942B7B286E00E062FB /* CalendarBadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +346,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.1se.AccessibilityTalk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Accesibility Demo";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,7 +375,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.1se.AccessibilityTalk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Accesibility Demo";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

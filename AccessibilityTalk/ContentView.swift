@@ -28,6 +28,13 @@ struct ContentView: View {
                             .accessibilityLabel("Good SwiftUI Form")
                     }
                 }
+                Section("5. Calendar Grid") {
+                    NavigationLink("❌ Bad SwiftUI Grid") { CalendarBadView() }
+                    NavigationLink(destination: CalendarGoodView()) {
+                        Text("✅ Good SwiftUI Grid")
+                            .accessibilityLabel("Good SwiftUI Grid")
+                    }
+                }
             }
             .navigationTitle("Accessibility Demo")
             .navigationBarTitleDisplayMode(.inline)
