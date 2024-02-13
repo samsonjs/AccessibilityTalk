@@ -32,7 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96088D5E2B797B7700E062FB /* Accesibility Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accesibility Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96088D5E2B797B7700E062FB /* Accessibility Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96088D612B797B7700E062FB /* AccessibilityTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTalkApp.swift; sourceTree = "<group>"; };
 		96088D632B797B7700E062FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96088D652B797B7900E062FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		96088D5F2B797B7700E062FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96088D5E2B797B7700E062FB /* Accesibility Demo.app */,
+				96088D5E2B797B7700E062FB /* Accessibility Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			);
 			name = AccessibilityTalk;
 			productName = AccessibilityTalk;
-			productReference = 96088D5E2B797B7700E062FB /* Accesibility Demo.app */;
+			productReference = 96088D5E2B797B7700E062FB /* Accessibility Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +358,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.1se.AccessibilityTalk;
-				PRODUCT_NAME = "Accesibility Demo";
+				PRODUCT_NAME = "Accessibility Demo";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,7 +387,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.1se.AccessibilityTalk;
-				PRODUCT_NAME = "Accesibility Demo";
+				PRODUCT_NAME = "Accessibility Demo";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
