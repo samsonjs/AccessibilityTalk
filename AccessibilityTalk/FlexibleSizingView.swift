@@ -9,19 +9,27 @@ import SwiftUI
 
 struct FlexibleSizingView: View {
     var body: some View {
-        Button {} label: {
-            Text("Reticulate Splines")
-                .padding(.horizontal, 24)
-                .padding(.vertical, 12)
+        BadGoodView("Flexible Sizing (SwiftUI)") {
+            Button {} label: {
+                Text("Reticulate Splines")
+                    .frame(width: 180, height: 44)
+            }
+            .buttonStyle(.borderedProminent)
+        } good: {
+            Button {} label: {
+                Text("Reticulate Splines")
+                    .padding(.horizontal, 24)
+                    .padding(.vertical, 12)
+            }
+            .buttonStyle(.borderedProminent)
         }
-        .buttonStyle(.borderedProminent)
-        .navigationTitle("✅ Flexible Sizing (SwiftUI)")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
     NavigationStack {
         FlexibleSizingView()
+            .navigationTitle("Flexible Sizing (SwiftUI)")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }

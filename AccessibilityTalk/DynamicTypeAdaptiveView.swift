@@ -18,7 +18,7 @@ struct DynamicTypeAdaptiveStack<Content: View>: View {
 
     init(
         verticalThreshold: DynamicTypeSize,
-        spacing: Double = 16,
+        spacing: Double = 8,
         @ViewBuilder content: () -> Content
     ) {
         self.verticalThreshold = verticalThreshold

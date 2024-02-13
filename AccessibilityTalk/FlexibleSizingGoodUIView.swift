@@ -1,5 +1,5 @@
 //
-//  FlexibleSizingViewController.swift
+//  FlexibleSizingGoodUIView.swift
 //  AccessibilityTalk
 //
 //  Created by Work on 2024-02-11.
@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-class FlexibleSizingViewController: UIViewController {
+class FlexibleSizingGoodViewController: UIViewController {
     var buttonTitle: String {
         didSet {
             button.setTitle(buttonTitle, for: .normal)
@@ -57,36 +57,26 @@ class FlexibleSizingViewController: UIViewController {
     }
 }
 
-struct _FlexibleSizingUIView: UIViewControllerRepresentable {
-    var title: String
-    var horizontalPadding: CGFloat
-    var verticalPadding: CGFloat
+struct FlexibleSizingGoodUIView: UIViewControllerRepresentable {
+    var title: String = "Reticulate Splines"
+    var horizontalPadding: CGFloat = 24
+    var verticalPadding: CGFloat = 12
 
-    func makeUIViewController(context: Context) -> FlexibleSizingViewController {
-        FlexibleSizingViewController(title: title, horizontalPadding: horizontalPadding, verticalPadding: verticalPadding)
+    func makeUIViewController(context: Context) -> FlexibleSizingGoodViewController {
+        FlexibleSizingGoodViewController(title: title, horizontalPadding: horizontalPadding, verticalPadding: verticalPadding)
     }
 
-    func updateUIViewController(_ uiViewController: FlexibleSizingViewController, context: Context) {
+    func updateUIViewController(_ uiViewController: FlexibleSizingGoodViewController, context: Context) {
         uiViewController.buttonTitle = title
         uiViewController.horizontalPadding = horizontalPadding
         uiViewController.verticalPadding = verticalPadding
     }
 }
 
-struct FlexibleSizingUIView: View {
-    var title: String = "Reticulate Splines"
-    var horizontalPadding: CGFloat = 24
-    var verticalPadding: CGFloat = 12
-
-    var body: some View {
-        _FlexibleSizingUIView(title: title, horizontalPadding: horizontalPadding, verticalPadding: verticalPadding)
-            .navigationTitle("✅ Flexible Sizing (UIKit)")
-            .navigationBarTitleDisplayMode(.inline)
-    }
-}
-
 #Preview {
     NavigationStack {
         FlexibleSizingUIView()
+            .navigationTitle("✅ Flexible Sizing (UIKit)")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }

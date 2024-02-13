@@ -62,10 +62,10 @@ class FlexibleSizingBadViewController: UIViewController {
     }
 }
 
-struct _FlexibleSizingBadUIView: UIViewControllerRepresentable {
-    var title: String
-    var width: CGFloat
-    var height: CGFloat
+struct FlexibleSizingBadUIView: UIViewControllerRepresentable {
+    var title: String = "Reticulate Splines"
+    var width: CGFloat = 180
+    var height: CGFloat = 44
 
     func makeUIViewController(context: Context) -> FlexibleSizingBadViewController {
         FlexibleSizingBadViewController(title: title, width: width, height: height)
@@ -78,20 +78,10 @@ struct _FlexibleSizingBadUIView: UIViewControllerRepresentable {
     }
 }
 
-struct FlexibleSizingBadUIView: View {
-    var title: String = "Reticulate Splines"
-    var width: CGFloat = 180
-    var height: CGFloat = 44
-
-    var body: some View {
-        _FlexibleSizingBadUIView(title: title, width: width, height: height)
-            .navigationTitle("❌ Flexible Sizing (UIKit)")
-            .navigationBarTitleDisplayMode(.inline)
-    }
-}
-
 #Preview {
     NavigationStack {
         FlexibleSizingBadUIView()
+            .navigationTitle("❌ Flexible Sizing (UIKit)")
+            .navigationBarTitleDisplayMode(.inline)
     }
 }

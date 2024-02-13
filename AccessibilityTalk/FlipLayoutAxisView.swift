@@ -11,17 +11,28 @@ struct FlipLayoutAxisView: View {
     private let titles: [String] = ["Video", "Audio", "Info"]
 
     var body: some View {
-        DynamicTypeAdaptiveStack(verticalThreshold: .accessibility3) {
-            ForEach(titles, id: \.self) { title in
-                Button {} label: {
-                    Text(title)
-                        .frame(minWidth: 80)
+        BadGoodView("Flip Layout") {
+            HStack {
+                ForEach(titles, id: \.self) { title in
+                    Button {} label: {
+                        Text(title)
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.borderedProminent)
                 }
-                .buttonStyle(.borderedProminent)
+            }
+        } good: {
+            DynamicTypeAdaptiveStack(verticalThreshold: .accessibility3) {
+                ForEach(titles, id: \.self) { title in
+                    Button {} label: {
+                        Text(title)
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.borderedProminent)
+                }
             }
         }
-        .navigationTitle("✅ Flip Layout")
-        .navigationBarTitleDisplayMode(.inline)
+        .padding()
     }
 }
 

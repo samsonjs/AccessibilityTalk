@@ -14,7 +14,7 @@ struct ExampleFormBadView: View {
     @State var passwordConfirmation = ""
     @State var wantsNewsletter = false
 
-    private let labelWidth: Double = 150
+    private let labelWidth: Double = 100
 
     var body: some View {
         VStack {
@@ -24,21 +24,21 @@ struct ExampleFormBadView: View {
 
             HStack {
                 label("Name")
-                TextField("", text: $name, prompt: Text("Johnny Appleseed"))
+                TextField(text: $name, prompt: Text("Johnny Appleseed")) { EmptyView() }
                     .textContentType(.name)
                     .textFieldStyle(.roundedBorder)
             }
 
             HStack {
                 label("Email")
-                TextField("", text: $email, prompt: Text("johnny@appleseed.net"))
+                TextField(text: $email, prompt: Text("johnny@appleseed.net")) { EmptyView() }
                     .textContentType(.emailAddress)
                     .textFieldStyle(.roundedBorder)
             }
 
             HStack {
                 label("Password")
-                TextField("", text: $name, prompt: Text("super secret"))
+                SecureField(text: $name, prompt: Text("super secret")) { EmptyView() }
                     .textContentType(.newPassword)
                     .textFieldStyle(.roundedBorder)
             }
@@ -63,7 +63,7 @@ struct ExampleFormBadView: View {
 
     private func label(_ title: String) -> some View {
         Text(title)
-            .frame(minWidth: labelWidth, alignment: .trailing)
+            .frame(width: labelWidth, alignment: .trailing) // minWidth is better, but not a lot
     }
 }
 

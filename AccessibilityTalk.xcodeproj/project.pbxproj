@@ -14,14 +14,13 @@
 		96088D722B797FBA00E062FB /* FlipLayoutAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D712B797FBA00E062FB /* FlipLayoutAxisView.swift */; };
 		96088D742B7980D700E062FB /* DynamicTypeAdaptiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D732B7980D700E062FB /* DynamicTypeAdaptiveView.swift */; };
 		96088D762B7981DC00E062FB /* FlexibleSizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D752B7981DC00E062FB /* FlexibleSizingView.swift */; };
-		96088D782B7981EB00E062FB /* ExampleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D772B7981EB00E062FB /* ExampleFormView.swift */; };
+		96088D782B7981EB00E062FB /* ExampleFormGoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D772B7981EB00E062FB /* ExampleFormGoodView.swift */; };
 		96088D7A2B79827D00E062FB /* ExampleFormBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D792B79827D00E062FB /* ExampleFormBadView.swift */; };
-		96088D7C2B79828900E062FB /* FlexibleSizingBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D7B2B79828900E062FB /* FlexibleSizingBadView.swift */; };
-		96088D7E2B79829000E062FB /* FlipLayoutAxisBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D7D2B79829000E062FB /* FlipLayoutAxisBadView.swift */; };
-		96088D802B798DBE00E062FB /* FlexibleSizingBadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D7F2B798DBE00E062FB /* FlexibleSizingBadViewController.swift */; };
-		96088D822B79925200E062FB /* FlexibleSizingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D812B79925200E062FB /* FlexibleSizingViewController.swift */; };
-		96088D842B799ABA00E062FB /* TextSizingBadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D832B799ABA00E062FB /* TextSizingBadView.swift */; };
+		96088D802B798DBE00E062FB /* FlexibleSizingBadUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D7F2B798DBE00E062FB /* FlexibleSizingBadUIView.swift */; };
+		96088D822B79925200E062FB /* FlexibleSizingGoodUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D812B79925200E062FB /* FlexibleSizingGoodUIView.swift */; };
 		96088D862B799B1400E062FB /* TextSizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D852B799B1400E062FB /* TextSizingView.swift */; };
+		96088D882B7AFE7D00E062FB /* BadGoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D872B7AFE7D00E062FB /* BadGoodView.swift */; };
+		96088D8A2B7B009400E062FB /* FlexibleSizingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D892B7B009400E062FB /* FlexibleSizingUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,14 +32,13 @@
 		96088D712B797FBA00E062FB /* FlipLayoutAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipLayoutAxisView.swift; sourceTree = "<group>"; };
 		96088D732B7980D700E062FB /* DynamicTypeAdaptiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeAdaptiveView.swift; sourceTree = "<group>"; };
 		96088D752B7981DC00E062FB /* FlexibleSizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingView.swift; sourceTree = "<group>"; };
-		96088D772B7981EB00E062FB /* ExampleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFormView.swift; sourceTree = "<group>"; };
+		96088D772B7981EB00E062FB /* ExampleFormGoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFormGoodView.swift; sourceTree = "<group>"; };
 		96088D792B79827D00E062FB /* ExampleFormBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFormBadView.swift; sourceTree = "<group>"; };
-		96088D7B2B79828900E062FB /* FlexibleSizingBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingBadView.swift; sourceTree = "<group>"; };
-		96088D7D2B79829000E062FB /* FlipLayoutAxisBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipLayoutAxisBadView.swift; sourceTree = "<group>"; };
-		96088D7F2B798DBE00E062FB /* FlexibleSizingBadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingBadViewController.swift; sourceTree = "<group>"; };
-		96088D812B79925200E062FB /* FlexibleSizingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingViewController.swift; sourceTree = "<group>"; };
-		96088D832B799ABA00E062FB /* TextSizingBadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizingBadView.swift; sourceTree = "<group>"; };
+		96088D7F2B798DBE00E062FB /* FlexibleSizingBadUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingBadUIView.swift; sourceTree = "<group>"; };
+		96088D812B79925200E062FB /* FlexibleSizingGoodUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingGoodUIView.swift; sourceTree = "<group>"; };
 		96088D852B799B1400E062FB /* TextSizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizingView.swift; sourceTree = "<group>"; };
+		96088D872B7AFE7D00E062FB /* BadGoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadGoodView.swift; sourceTree = "<group>"; };
+		96088D892B7B009400E062FB /* FlexibleSizingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleSizingUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,18 +73,17 @@
 			children = (
 				96088D612B797B7700E062FB /* AccessibilityTalkApp.swift */,
 				96088D652B797B7900E062FB /* Assets.xcassets */,
+				96088D872B7AFE7D00E062FB /* BadGoodView.swift */,
 				96088D632B797B7700E062FB /* ContentView.swift */,
 				96088D732B7980D700E062FB /* DynamicTypeAdaptiveView.swift */,
 				96088D792B79827D00E062FB /* ExampleFormBadView.swift */,
-				96088D772B7981EB00E062FB /* ExampleFormView.swift */,
-				96088D7B2B79828900E062FB /* FlexibleSizingBadView.swift */,
-				96088D7F2B798DBE00E062FB /* FlexibleSizingBadViewController.swift */,
+				96088D772B7981EB00E062FB /* ExampleFormGoodView.swift */,
+				96088D7F2B798DBE00E062FB /* FlexibleSizingBadUIView.swift */,
+				96088D812B79925200E062FB /* FlexibleSizingGoodUIView.swift */,
+				96088D892B7B009400E062FB /* FlexibleSizingUIView.swift */,
 				96088D752B7981DC00E062FB /* FlexibleSizingView.swift */,
-				96088D812B79925200E062FB /* FlexibleSizingViewController.swift */,
-				96088D7D2B79829000E062FB /* FlipLayoutAxisBadView.swift */,
 				96088D712B797FBA00E062FB /* FlipLayoutAxisView.swift */,
 				96088D672B797B7900E062FB /* Preview Content */,
-				96088D832B799ABA00E062FB /* TextSizingBadView.swift */,
 				96088D852B799B1400E062FB /* TextSizingView.swift */,
 			);
 			path = AccessibilityTalk;
@@ -175,13 +172,12 @@
 				96088D642B797B7700E062FB /* ContentView.swift in Sources */,
 				96088D622B797B7700E062FB /* AccessibilityTalkApp.swift in Sources */,
 				96088D722B797FBA00E062FB /* FlipLayoutAxisView.swift in Sources */,
-				96088D842B799ABA00E062FB /* TextSizingBadView.swift in Sources */,
-				96088D822B79925200E062FB /* FlexibleSizingViewController.swift in Sources */,
+				96088D822B79925200E062FB /* FlexibleSizingGoodUIView.swift in Sources */,
 				96088D7A2B79827D00E062FB /* ExampleFormBadView.swift in Sources */,
-				96088D782B7981EB00E062FB /* ExampleFormView.swift in Sources */,
-				96088D7E2B79829000E062FB /* FlipLayoutAxisBadView.swift in Sources */,
-				96088D7C2B79828900E062FB /* FlexibleSizingBadView.swift in Sources */,
-				96088D802B798DBE00E062FB /* FlexibleSizingBadViewController.swift in Sources */,
+				96088D782B7981EB00E062FB /* ExampleFormGoodView.swift in Sources */,
+				96088D882B7AFE7D00E062FB /* BadGoodView.swift in Sources */,
+				96088D8A2B7B009400E062FB /* FlexibleSizingUIView.swift in Sources */,
+				96088D802B798DBE00E062FB /* FlexibleSizingBadUIView.swift in Sources */,
 				96088D862B799B1400E062FB /* TextSizingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -298,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

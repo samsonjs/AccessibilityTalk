@@ -9,9 +9,12 @@ import SwiftUI
 
 struct TextSizingView: View {
     var body: some View {
-        Text("¡Mucho mejor!")
-            .navigationTitle("✅ Text Sizing")
-            .navigationBarTitleDisplayMode(.inline)
+        BadGoodView("Text Sizing") {
+            Text("No bueno")
+                .font(.system(size: 16))
+        } good: {
+            Text("¡Mucho mejor!")
+        }
     }
 }
 
