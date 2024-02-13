@@ -9,13 +9,15 @@ import SwiftUI
 
 struct CalendarBadView: View {
     var body: some View {
-        LazyVGrid(columns: gridColumns, spacing: 0) {
-            Group {
-                BadDayView()
+        ScrollView {
+            LazyVGrid(columns: gridColumns, spacing: 0) {
+                Group {
+                    BadDayView()
 
-                BadDayView(state: DayState(hasJournal: false, snippetCount: 1))
+                    BadDayView(state: DayState(hasJournal: false, snippetCount: 1))
 
-                BadDayView(state: DayState(hasJournal: true, snippetCount: 2))
+                    BadDayView(state: DayState(hasJournal: true, snippetCount: 2))
+                }
             }
         }
     }
