@@ -10,10 +10,21 @@ import SwiftUI
 struct TextSizingView: View {
     var body: some View {
         BadGoodView("Text Sizing") {
-            Text("No bueno")
-                .font(.system(size: 16))
+            VStack {
+                Text("No bueno")
+                    .font(.system(size: 16))
+
+                Text("Nicht gut")
+                    .font(Font.custom("Montserrat-Medium", fixedSize: 16))
+            }
         } good: {
-            Text("¡Mucho mejor!")
+            VStack {
+                Text("¡Mucho mejor!")
+
+                // Defaults to relativeTo: .body, just for illustration
+                Text("Viel besser!")
+                    .font(Font.custom("Montserrat-Medium", size: 16, relativeTo: .body))
+            }
         }
     }
 }

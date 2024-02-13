@@ -29,6 +29,8 @@
 		96088D982B7B37B400E062FB /* BadSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D972B7B37B400E062FB /* BadSlider.swift */; };
 		96088D9A2B7B39C300E062FB /* ExampleSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D992B7B39C300E062FB /* ExampleSliderView.swift */; };
 		96088D9C2B7B3D6800E062FB /* GoodSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088D9B2B7B3D6800E062FB /* GoodSlider.swift */; };
+		96088D9E2B7BB6E400E062FB /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96088D9D2B7BB6E400E062FB /* Montserrat-Medium.ttf */; };
+		96088DA12B7BB99000E062FB /* TextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96088DA02B7BB99000E062FB /* TextImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,9 @@
 		96088D972B7B37B400E062FB /* BadSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadSlider.swift; sourceTree = "<group>"; };
 		96088D992B7B39C300E062FB /* ExampleSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSliderView.swift; sourceTree = "<group>"; };
 		96088D9B2B7B3D6800E062FB /* GoodSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodSlider.swift; sourceTree = "<group>"; };
+		96088D9D2B7BB6E400E062FB /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		96088D9F2B7BB71600E062FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		96088DA02B7BB99000E062FB /* TextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +112,10 @@
 				96088D712B797FBA00E062FB /* FlipLayoutAxisView.swift */,
 				96088D912B7B220200E062FB /* GoodDayView.swift */,
 				96088D9B2B7B3D6800E062FB /* GoodSlider.swift */,
+				96088D9F2B7BB71600E062FB /* Info.plist */,
+				96088D9D2B7BB6E400E062FB /* Montserrat-Medium.ttf */,
 				96088D672B797B7900E062FB /* Preview Content */,
+				96088DA02B7BB99000E062FB /* TextImageView.swift */,
 				96088D852B799B1400E062FB /* TextSizingView.swift */,
 			);
 			path = AccessibilityTalk;
@@ -180,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96088D692B797B7900E062FB /* Preview Assets.xcassets in Resources */,
+				96088D9E2B7BB6E400E062FB /* Montserrat-Medium.ttf in Resources */,
 				96088D662B797B7900E062FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +207,7 @@
 				96088D742B7980D700E062FB /* DynamicTypeAdaptiveView.swift in Sources */,
 				96088D642B797B7700E062FB /* ContentView.swift in Sources */,
 				96088D622B797B7700E062FB /* AccessibilityTalkApp.swift in Sources */,
+				96088DA12B7BB99000E062FB /* TextImageView.swift in Sources */,
 				96088D9C2B7B3D6800E062FB /* GoodSlider.swift in Sources */,
 				96088D722B797FBA00E062FB /* FlipLayoutAxisView.swift in Sources */,
 				96088D822B79925200E062FB /* FlexibleSizingGoodUIView.swift in Sources */,
@@ -347,6 +357,7 @@
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessibilityTalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,6 +387,7 @@
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccessibilityTalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

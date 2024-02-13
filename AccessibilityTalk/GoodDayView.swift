@@ -24,6 +24,7 @@ struct GoodDayView: View {
                         .resizable()
                         .scaledToFit()
                         .clipped()
+                        .accessibilityIgnoresInvertColors()
                 }
 
                 if !typeSize.isAccessibilitySize {
