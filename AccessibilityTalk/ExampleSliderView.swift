@@ -14,17 +14,16 @@ struct ExampleSliderView: View {
 
     var body: some View {
         BadGoodView("Custom Slider") {
-            CustomSlider(value: $badValue)
+            BadSlider(value: $badValue)
         } good: {
-            CustomSlider(value: $goodValue)
-                .accessibilityRepresentation {
-                    Slider(value: $goodValue)
-                }
+            GoodSlider(value: $goodValue)
         }
 
     }
 }
 
 #Preview {
-    ExampleSliderView()
+    NavigationStack {
+        ExampleSliderView()
+    }
 }

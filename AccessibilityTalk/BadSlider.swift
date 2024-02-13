@@ -1,5 +1,5 @@
 //
-//  CustomSlider.swift
+//  BadSlider.swift
 //  AccessibilityTalk
 //
 //  Created by Work on 2024-02-12.
@@ -7,13 +7,23 @@
 
 import SwiftUI
 
-struct CustomSlider: View {
+struct BadSlider: View {
     @Binding var value: Double
+
+    var range: ClosedRange<Double>
+
+    var step: Double
+
+    init(value: Binding<Double>, in range: ClosedRange<Double>? = nil, step: Double? = nil) {
+        _value = value
+        self.range = range ?? 0...1
+        self.step = step ?? 0.02
+    }
 
     var body: some View {
         HStack(spacing: 0) {
             Button {
-                value = max(0, value - 0.05)
+                value = max(range.lowerBound, value - step)
             } label: {
                 Image(systemName: "minus.circle")
                     .padding(8)
@@ -36,7 +46,7 @@ struct CustomSlider: View {
                 }
 
             Button {
-                value = min(1, value + 0.05)
+                value = min(range.upperBound, value + step)
             } label: {
                 Image(systemName: "plus.circle")
                     .padding(8)
@@ -47,5 +57,5 @@ struct CustomSlider: View {
 }
 
 #Preview {
-    CustomSlider(value: .constant(0.42))
+    BadSlider(value: .constant(0.42))
 }
